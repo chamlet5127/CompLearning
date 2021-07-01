@@ -1,5 +1,5 @@
 close all
-
+%% Run this code to have tentacles probabilistically capture randomly moving brine shrimp.
 writerObj=VideoWriter('Brine.avi');
 writerObj.FrameRate=10;
 open(writerObj);
